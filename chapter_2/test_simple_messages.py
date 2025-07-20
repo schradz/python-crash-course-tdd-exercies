@@ -18,3 +18,8 @@ def test_simple_message_is_stored():
     test_message = "Hello World!"
     set_message(test_message)
     assert simple_messages.stored_message == "Hello World!"
+
+def test_error_thrown_on_empty_message():
+    with pytest.raises(Exception):
+        test_message = ""
+        set_message(test_message)
