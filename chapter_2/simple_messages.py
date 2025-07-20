@@ -1,2 +1,2 @@
 def set_message(message):
-    print(f"Message '{message}' stored")
+    print(f"Message '{message}' stored") 
