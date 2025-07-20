@@ -8,3 +8,4 @@ def send_message():
         raise ValueError("No recipient for message")
     if message == "":
         raise ValueError("No message to send")
+    print(f"Sending message to {recipient}: {message}")
